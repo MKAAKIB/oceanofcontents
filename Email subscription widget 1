@@ -1,0 +1,64 @@
+<!-- Powered BY: ocean of contents -->  
+ <style>  
+ @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);  
+ .wk_subs_box_wrapper{  
+  background:url('Your Backgroud Image') repeat scroll 0 0 #FFF;  
+  color:#427FED;  
+  border-radius: 5px;  
+  border: 2px solid #0AC4FC;  
+  font-family: "Roboto";  
+  font-size:14px;  
+  line-height:20px;  
+  padding:1px 20px 10px;  
+  text-align:center;  
+  text-transform:uppercase  
+ }  
+ .sidebar-subscribe-box-form{  
+  clear:both;  
+  display:block;  
+  margin:10px 0  
+ }  
+ form.sidebar-subscribe-box-form{  
+  clear:both;  
+  display:block;  
+  margin:10px 0 0;  
+  width:auto  
+ }  
+ .sidebar-subscribe-box-email-field{  
+  -moz-border-radius:4px;  
+  -webkit-border-radius:4px;  
+  background:#fff;  
+  border:1px solid #ccc;  
+  border-radius:4px;  
+  color:#444;margin:0 0 15px;  
+  padding:10px 30px;  
+  width:75%  
+ }  
+ .sidebar-subscribe-button{  
+  -webkit-border-radius: 5;  
+  -moz-border-radius: 5;  
+  border-radius: 5px;  
+  font-family: "Roboto";  
+  color: #ffffff;  
+  font-size: 29px;  
+  background: #3cb0fd;  
+  padding: 10px 30px 10px 30px;  
+  width:100%;  
+  border: solid #ffffff 0px;  
+  text-decoration: none;  
+ }  
+ .sidebar-subscribe-button:hover,.sidebar-subscribe-box-email-button:focus{  
+  background: #3498db;  
+  text-decoration: none;  
+ }  
+ </style>  
+ <div class="wk_subs_box_wrapper">  
+   <p>Subscribe for free</p>  
+   <div class="sidebar-subscribe-box-form">  
+    <form action="http://feedburner.google.com/fb/a/mailverify?uri=Cybup" class="sidebar-subscribe-box-form" method="post" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=Cybup', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" target="popupwindow">  
+     <input name="uri" type="hidden" value="Cybup" />  
+     <input name="loc" type="hidden" value="en_US" /><input class="sidebar-subscribe-box-email-field" name="email" autocomplete="off" placeholder="Enter your email address"/>  
+     <input class="sidebar-subscribe-button" title="" type="submit" value="Subscribe Now !" />  
+    </form>  
+   </div>  
+  </div>  
