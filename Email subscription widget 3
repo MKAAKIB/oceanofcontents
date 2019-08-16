@@ -1,0 +1,140 @@
+<style type="text/css">  
+ .ooc_sub {  
+   background-color: rgb(87, 98, 105);  
+   width: 100%;  
+   height: 100%;  
+   padding: 5px;  
+   box-shadow: 0px 0px 5px rgb(87, 98, 105);  
+ }  
+ .ooc_inner_form {  
+   text-align: center;  
+   color: rgb(255, 255, 255);  
+   font: bold 16px "trebuchet MS","Tahoma";  
+ }  
+ .ooc_mail_form {  
+   width: 240px;  
+   margin: 10px auto;  
+ }  
+ #ooc_email_box {  
+   background-color: #ece6e6eb;  
+   color: #FFF;  
+   width: 208px;  
+   border: 1px solid #697780;  
+   padding: 15px;  
+   text-align: center;  
+   height: 18px;  
+   box-sizing: content-box;  
+   border-radius: 10px;  
+ }  
+ #ooc_email_button {  
+   background-color: rgb(243, 93, 92);  
+   border: 1px solid rgb(215, 84, 83);  
+   color: rgb(255, 255, 255);  
+   width: 240px;  
+   font: bold 16px "trebuchet MS","Tahoma";  
+   padding: 15px;  
+   text-align: center;  
+   height: 50px;  
+   margin: 10px auto;  
+   cursor: pointer;  
+   border-radius: 10px;  
+ }  
+ }  
+ #ooc_email_button:hover {  
+   background-color: #E64C4B;  
+   border: 1px solid #BF4A49;  
+ }  
+ .ooc_signup_form {  
+   margin-top: 15px;  
+ }  
+ .ooc_social_icons {  
+   overflow: hidden;  
+   text-align: center;  
+   border-bottom: 1px solid rgb(133, 133, 133);  
+   width: 230px;  
+   display: block;  
+   margin: 20px auto;  
+ }  
+ .ooc_social_icons ul {  
+   margin: 0px auto !important;  
+   text-align: center;  
+   padding: 0px !important;  
+   display: inline-block;  
+ }  
+ .ooc_social_icons ul li {  
+   background: transparent none repeat scroll 0% 0% !important;  
+   border: medium none !important;  
+   float: left;  
+   list-style-type: none !important;  
+   padding: 0px !important;  
+   margin: 0px 2px !important;  
+ }  
+ .ooc_social_icons ul li::before,  
+ .ooc_social_icons ul li::after {  
+   display: none !important;  
+ }  
+ .ooc_social_icons ul li a, .ooc_social_icons ul li a:hover {  
+   background: url("http://3.bp.blogspot.com/-qXV1qRPIjHY/UbqjmHPAHzI/AAAAAAAACUE/7_sAZf8tHLY/s1600/sprite_32x32.png") no-repeat scroll 0 0;  
+   -moz-border-radius: 50%;  
+   -webkit-border-radius: 50%;  
+   border-radius: 50%;  
+   display: block;  
+   height: 34px;  
+   overflow: hidden;  
+   text-indent: -999px;  
+   transition: all 0.25s linear 0s;  
+   width: 34px;  
+ }  
+ .ooc_social_icons ul li.social-facebook a {  
+   background-position: -62px 1px;  
+ }  
+ .ooc_social_icons ul li.social-facebook a:hover {  
+   background-color: #3b5998;   
+ }  
+ .ooc_social_icons ul li.social-twitter a {  
+   background-position: -254px 1px;  
+ }  
+ .ooc_social_icons ul li.social-twitter a:hover {  
+   background-color: #00aced;   
+ }  
+ .ooc_social_icons ul li.social-gplus a {  
+   background-position: -95px 0px;  
+ }  
+ .ooc_social_icons ul li.social-gplus a:hover {  
+   background-color: #dd4b39;   
+ }  
+ .ooc_social_icons ul li.social-pinterest a {  
+   background-position: -159px 1px;  
+ }  
+ .ooc_social_icons ul li.social-pinterest a:hover {  
+   background-color: #cb2027;   
+ }  
+ .ooc_social_icons ul li.social-rss a {  
+   background-position: -190px 0px;  
+ }  
+ .ooc_social_icons ul li.social-rss a:hover {  
+   background-color: #F87E12;   
+ }  
+ </style>  
+ <div class="ooc_sub">  
+ <div class="ooc_social_icons">  
+  <ul>  
+   <li class="social-facebook"><a href="[Fb url]" target="_blank" title="Facebook">Facebook</a></li>  
+   <li class="social-twitter"><a href="[Twitter url]" target="_blank" title="Twitter">Twitter</a></li>  
+   <li class="social-pinterest"><a href="[Pinterest url]" target="_blank" title="Pinterest">Pinterest</a></li>  
+  </ul>  
+  </div>  
+  <div class='ooc_signup_form'>  
+  <div class='ooc_inner_form'>  
+   <h4>Subscribe to Newsletter</h4>  
+  </div>  
+  <div class='ooc_mail_form'>  
+   <form action='http://feedburner.google.com/fb/a/mailverify' id='subscribe' method='post' onsubmit='window.open(&apos;http://feedburner.google.com/fb/a/mailverify?uri=[Your Blog uri]&apos;, &apos;popupwindow&apos;, &apos;scrollbars=yes,width=550,height=520&apos;);return true' target='popupwindow'>  
+   <input name='uri' type='hidden' value='[Your Blog uri]'/>  
+   <input name='loc' type='hidden' value='en_US'/>  
+   <input id='ooc_email_box' name='email' required='' type='text' placeholder='Enter Your Email'/>  
+   <input id='ooc_email_button' title='' type='submit' value='Subscribe'/>  
+   </form>  
+  </div>  
+  </div>  
+ </div>  
