@@ -1,0 +1,15 @@
+<style> 
+#ooc-sub-box{background: -webkit-gradient(linear, left top, left bottom, from(#333);;border:1px 
+solid #1A2638; margin-bottom:10px;padding:10px;text-align:center;background: -moz-linear-gradient(top, #333)}
+#Ooc-sub-box h2{margin-top:5px; color:#FFF;font-family:georgia;font-size:25px;margin-bottom:5px;padding:0;text-shadow:0 2px 3px #000;line-height:35px}
+#ooc-sub-box input{background: -moz-linear-gradient(center top , #FFFFFF, #EFEFEF) repeat scroll 0 0 transparentborder:medium none;font-size:14px;padding:10px;text-shadow:1px 1px 0 #FFF;width:90%; color:#666; font-family:georgia; margin-bottom:5px;}
+#ooc-sub-box .submit{border:1px 
+solid #369a18;background: -webkit-gradient(linear, left top, left bottom, from(#369a18), to(#205f0d));background: -moz-linear-gradient(center top , #369A18, #205F0D) repeat scroll 0 0 transparent;color:#FFF;cursor:pointer;font-weight:bold;margin-left:10px;text-shadow:0 1px 2px #000;width:95%; font-family:georgia; margin-left:5px;}
+#ooc-sub-box .submit:active{background: -moz-linear-gradient(center top , #46B725, #205F0D) repeat scroll 0 0 transparent}
+#ooc-sub-box .submit a:active{background: #205F0D} 
+</style>
+ 
+ 
+<b:if cond='data:blog.pageType == &quot;item&quot;'> 
+<div id="ooc-sub-box"><h2>Subscribe Today our site and get free content delivered automatically each time we publish</h2><form action='https://feedburner.google.com/fb/a/mailverify' method='post' onsubmit='window.open(&apos;https://feedburner.google.com/fb/a/mailverify?uri=supportmeindia&apos;, &apos;popupwindow&apos;, &apos;scrollbars=yes,width=550,height=520&apos;);return true' target='popupwindow'><center> <input name='email' onblur='if (this.value == &quot;&quot;) {this.value = &quot;Enter Your Email Address...&quot;;}' onfocus='if (this.value == &quot;Enter Your Email Address...&quot;) {this.value = &quot;&quot;}' size='30' type='text' value='Enter Your Email Address...'/> <input name='uri' type='hidden' value='supportmeindia'/> <input name='loc' type='hidden' value='en_US'/> <input class='submit' type='submit' value='Subscribe Now'/></center></form></div> 
+</b:if>
