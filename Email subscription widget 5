@@ -1,0 +1,35 @@
+ <style>  
+ //@media(max-width:400px) {.sbox{width:109%!important;}}  
+ //@media(max-width:1024px) and (min-width:400px) {.sbox{width:106.5%!important;}}  
+ .sbox {background:#009abe;text-align:center;width:100%;}  
+ .sbox span {color:#fff;font-family:roboto;font-size:27px;}  
+ .sbox .small {font-size:18px;}  
+ input.boxinput::placeholder {color:#fff;}  
+ .sbox .hatespam {font-size:15px;}  
+ .sbox .boxinput::placeholder {color:#fff;}  
+ .sbox .boxinput {background:rgba(0,0,0,0.4);color:#fff;border:none;padding-top:13px;padding-bottom:13px;font-family:roboto;margin-bottom:10px;outline:none;transition:.3s;width:86%;text-align:center;border-radius:4px;}  
+ .sbox .boxsubmit {box-shadow:0px 0px 31px 0px rgba(0,0,0,0.2);width:86%;text-align:center;padding-top:13px;padding-bottom:13px;background:#fff;outline:none;border:none;color:#009abe;font-family:roboto;cursor:pointer;border-radius:4px;}  
+ .sbox .boxsubmit:active {background:rgba(0,0,0,0.6);color:#fff;}  
+ .sbox {border-radius:8px!important;padding:0!important;border:none!important;}  
+ .sbox .widget-content {margin:0!important;}  
+ #sidebar-wrap .widget {overflow-x:hidden;}  
+ .sbox {background:linear-gradient(135deg, #667eea 0%, #764ba2 100%)!important;width:100%;}  
+ .sbox .boxsubmit {box-shadow:none!important;border-radius:2px!important;color:#764ba2!important;}  
+ .sbox .boxinput {border-radius:2px!important;}  
+ </style>  
+ <div class='sbox wow rubberBand'>  
+ <center>  
+ <br /><span class='icon'><img height='auto' src='https://1.bp.blogspot.com/-9-fJaPMneBk/WlMlqltvtOI/AAAAAAAACEM/qEy8USIBQJwky4GJixaeBxlk2WDor-JPgCLcBGAs/s1600/email.png' width='150px'/></span><br/>  
+ </center>  
+ <span>Newsletter</span><br /><br />  
+ <span class='small'>Join Our newsletter</span><br /><br />  
+ <center>  
+ <form action='https://feedburner.google.com/fb/a/mailverify' method='post' onsubmit='window.open(&#39;https://feedburner.google.com/fb/a/mailverify?uri=shoutersplanet&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=550,height=520&#39;); return true' target='popupwindow'><input class='boxinput' name='EMAIL' placeholder='Your Email Address' type='email' required/>  
+ <input class='boxsubmit' type='submit' value='Submit'/><input name='uri' type='hidden' value='shoutersplanet'/>  
+ <input name='loc' type='hidden' value='en_US'/></form><br />  
+ <span class='hatespam'>*We Hate Spam!</span><br /><br />  
+ </center></div>  
+
+
+
+Oceanofcontents.blogspot.com
