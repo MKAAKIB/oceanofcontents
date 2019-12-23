@@ -1,4 +1,6 @@
- #ignielSubscribe {width:300px; height:auto; background-color:#fff; border:0px solid #ddd; border-radius:7.5px; display:block; margin:auto; line-height:40px;
+<!--css--!>
+
+#ignielSubscribe {width:300px; height:auto; background-color:#fff; border:0px solid #ddd; border-radius:7.5px; display:block; margin:auto; line-height:40px;
  width:auto;
 align: center;
 padding:0px}
