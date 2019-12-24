@@ -24,12 +24,12 @@
  <span>Newsletter</span><br /><br />  
  <span class='small'>Join Our newsletter</span><br /><br />  
  <center>  
- <form action='https://feedburner.google.com/fb/a/mailverify' method='post' onsubmit='window.open(&#39;https://feedburner.google.com/fb/a/mailverify?uri=shoutersplanet&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=550,height=520&#39;); return true' target='popupwindow'><input class='boxinput' name='EMAIL' placeholder='Your Email Address' type='email' required/>  
- <input class='boxsubmit' type='submit' value='Submit'/><input name='uri' type='hidden' value='shoutersplanet'/>  
+ <form action='https://feedburner.google.com/fb/a/mailverify' method='post' onsubmit='window.open(&#39;https://feedburner.google.com/fb/a/mailverify?uri=oceanofcontents;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=550,height=520&#39;); return true' target='popupwindow'><input class='boxinput' name='EMAIL' placeholder='Your Email Address' type='email' required/>  
+ <input class='boxsubmit' type='submit' value='Submit'/><input name='uri' type='hidden' value='oceanofcontents'/>  
  <input name='loc' type='hidden' value='en_US'/></form><br />  
  <span class='hatespam'>*We Hate Spam!</span><br /><br />  
  </center></div>  
 
 
 
-Oceanofcontents.blogspot.com
+oceanofcontents.blogspot.com
