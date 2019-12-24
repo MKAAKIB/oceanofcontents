@@ -1,32 +1,32 @@
 <!--css--!>
 
-#ignielSubscribe {width:300px; height:auto; background-color:#fff; border:0px solid #ddd; border-radius:7.5px; display:block; margin:auto; line-height:40px;
+#oocSubscribe {width:300px; height:auto; background-color:#fff; border:0px solid #ddd; border-radius:7.5px; display:block; margin:auto; line-height:40px;
  width:auto;
 align: center;
 padding:0px}
-#ignielSubscribe .email__ {padding:15px 15px 5px;}
-#ignielSubscribe .email {margin:auto; color:#555; text-align:center;}
-#ignielSubscribe .email:before {content:''; width:50px; height:50px; display:block; text-align:center; margin:auto; border-radius:100px; transition:all .3s ease; -webkit-animation:ignielRing 5s 0s ease-in-out infinite; -webkit-transform-origin:50% 4px; -moz-animation:ignielRing 5s 0s ease-in-out infinite; -moz-transform-origin:50% 4px; animation:ignielRing 5s 0s ease-in-out infinite; transform-origin:50% 4px; background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21M19.75,3.19L18.33,4.61C20.04,6.3 21,8.6 21,11H23C23,8.07 21.84,5.25 19.75,3.19M1,11H3C3,8.6 3.96,6.3 5.67,4.61L4.25,3.19C2.16,5.25 1,8.07 1,11Z' fill='%23008c5f'/%3E%3C/svg%3E") center center / 50px no-repeat;}
-#ignielSubscribe .medsos__ {padding:15px 0px; line-height:0px; border-top:1px solid #ccc;}
-#ignielSubscribe form {display:-webkit-box; display:-webkit-flex; display:-moz-box; display:-ms-flexbox; display:flex; flex-wrap:nowrap; align-items:center; margin:0px 0px 15px; padding:0px; position:relative;}
-#ignielSubscribe form:before {left:15px; position:absolute; display:block; width:20px; height:20px; background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z' fill='%23717171'/%3E%3C/svg%3E") no-repeat; content:'';}
-#ignielSubscribe input {width: calc(100% - 35px); background-color:#ccc; line-height:1.5em; border:1px solid #ccc; border-right:0px; padding:8px 10px 8px 40px; font-size:12px; text-align:left !important; border-radius:50px 0px 0px 50px; outline:none; outline-width:0px; box-shadow:none; -moz-box-shadow:none; -webkit-box-shadow:none;}
-#ignielSubscribe button {background-color:#008c5f; width:40px; min-width:40px; height:36px; margin:0px; padding:0px; border:0px; box-shadow:none; vertical-align:top; cursor:pointer; transition:all .3s ease; background-image:unset; border-radius:0px 50px 50px 0px;}
-#ignielSubscribe button:hover, #ignielSubscribe button:focus {background-color:var(--color-hover);}
-#ignielSubscribe button:before {display:inline-block; width:20px; height:20px; margin:0px; background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2,21L23,12L2,3V10L17,12L2,14V21Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat; content:''; vertical-align:-3px;}
-#ignielSubscribe .medsos {width:100%; text-align:center;}
-#ignielSubscribe .medsos svg {width:20px;height:20px;margin-top:7px}
-#ignielSubscribe .medsos svg path {fill:#fff}
-#ignielSubscribe .medsos a {display:inline-block; margin-right:7px; width:35px; height:35px; box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.4); transition: all ease-in-out 300ms; border-radius:100px;}
-#ignielSubscribe .medsos a:last-child {margin-right:0px;}
-#ignielSubscribe .medsos a:hover {box-shadow: 0px 23px 15px -3px rgba(0,0,0,0.25); transform: translate(0px, -10px) scale(1.05);}
-#ignielSubscribe .medsos .facebook{background:#3a579a}
-#ignielSubscribe .medsos .twitter {background:#00abf0}
-#ignielSubscribe .medsos .googleplus {background:#df4a32}
-#ignielSubscribe .medsos .youtube {background:#cc181e}
-#ignielSubscribe .medsos .instagram {background:#992ebc}
-#ignielSubscribe .medsos .pinterest {background:#e60023}
-@-webkit-keyframes ignielRing{
+#oocSubscribe .email__ {padding:15px 15px 5px;}
+#oocSubscribe .email {margin:auto; color:#555; text-align:center;}
+#oocSubscribe .email:before {content:''; width:50px; height:50px; display:block; text-align:center; margin:auto; border-radius:100px; transition:all .3s ease; -webkit-animation:oocRing 5s 0s ease-in-out infinite; -webkit-transform-origin:50% 4px; -moz-animation:oocRing 5s 0s ease-in-out infinite; -moz-transform-origin:50% 4px; animation:oocRing 5s 0s ease-in-out infinite; transform-origin:50% 4px; background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21M19.75,3.19L18.33,4.61C20.04,6.3 21,8.6 21,11H23C23,8.07 21.84,5.25 19.75,3.19M1,11H3C3,8.6 3.96,6.3 5.67,4.61L4.25,3.19C2.16,5.25 1,8.07 1,11Z' fill='%23008c5f'/%3E%3C/svg%3E") center center / 50px no-repeat;}
+#oocSubscribe .medsos__ {padding:15px 0px; line-height:0px; border-top:1px solid #ccc;}
+#oocSubscribe form {display:-webkit-box; display:-webkit-flex; display:-moz-box; display:-ms-flexbox; display:flex; flex-wrap:nowrap; align-items:center; margin:0px 0px 15px; padding:0px; position:relative;}
+#oocSubscribe form:before {left:15px; position:absolute; display:block; width:20px; height:20px; background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z' fill='%23717171'/%3E%3C/svg%3E") no-repeat; content:'';}
+#oocSubscribe input {width: calc(100% - 35px); background-color:#ccc; line-height:1.5em; border:1px solid #ccc; border-right:0px; padding:8px 10px 8px 40px; font-size:12px; text-align:left !important; border-radius:50px 0px 0px 50px; outline:none; outline-width:0px; box-shadow:none; -moz-box-shadow:none; -webkit-box-shadow:none;}
+#oocSubscribe button {background-color:#008c5f; width:40px; min-width:40px; height:36px; margin:0px; padding:0px; border:0px; box-shadow:none; vertical-align:top; cursor:pointer; transition:all .3s ease; background-image:unset; border-radius:0px 50px 50px 0px;}
+#oocSubscribe button:hover, #oocSubscribe button:focus {background-color:var(--color-hover);}
+#oocSubscribe button:before {display:inline-block; width:20px; height:20px; margin:0px; background:url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M2,21L23,12L2,3V10L17,12L2,14V21Z' fill='%23fff'/%3E%3C/svg%3E") no-repeat; content:''; vertical-align:-3px;}
+#oocSubscribe .medsos {width:100%; text-align:center;}
+#oocSubscribe .medsos svg {width:20px;height:20px;margin-top:7px}
+#oocSubscribe .medsos svg path {fill:#fff}
+#oocSubscribe .medsos a {display:inline-block; margin-right:7px; width:35px; height:35px; box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.4); transition: all ease-in-out 300ms; border-radius:100px;}
+#oocSubscribe .medsos a:last-child {margin-right:0px;}
+#oocSubscribe .medsos a:hover {box-shadow: 0px 23px 15px -3px rgba(0,0,0,0.25); transform: translate(0px, -10px) scale(1.05);}
+#oocSubscribe .medsos .facebook{background:#3a579a}
+#oocSubscribe .medsos .twitter {background:#00abf0}
+#oocSubscribe .medsos .googleplus {background:#df4a32}
+#oocSubscribe .medsos .youtube {background:#cc181e}
+#oocSubscribe .medsos .instagram {background:#992ebc}
+#oocSubscribe .medsos .pinterest {background:#e60023}
+@-webkit-keyframes oocRing{
   0% { -webkit-transform: rotateZ(0); }
   1% { -webkit-transform: rotateZ(30deg); }
   3% { -webkit-transform: rotateZ(-28deg); }
@@ -52,7 +52,7 @@ padding:0px}
   43% { -webkit-transform: rotateZ(0); }
   100% { -webkit-transform: rotateZ(0); }
 }
-@-moz-keyframes ignielRing{
+@-moz-keyframes oocRing{
   0% { -moz-transform: rotate(0); }
   1% { -moz-transform: rotate(30deg); }
   3% { -moz-transform: rotate(-28deg); }
@@ -78,7 +78,7 @@ padding:0px}
   43% { -moz-transform: rotate(0); }
   100% { -moz-transform: rotate(0); }
 }
-@keyframes ignielRing{
+@keyframes oocRing{
   0% { transform: rotate(0); }
   1% { transform: rotate(30deg); }
   3% { transform: rotate(-28deg); }
@@ -109,13 +109,13 @@ padding:0px}
 
 <!---JS----!>
 
-<div id="ignielSubscribe">
+<div id="oocSubscribe">
   <div class="email__">
     <div class="email">
       Get the latest articles every day
       <form action="https://feedburner.google.com/fb/a/mailverify?uri=YOUR URI" method="post" onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=YOUR URI', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" target="popupwindow">
         <input name="email" class="email" placeholder="Example: name@mail.com"/>
-        <input name="uri" type="hidden" value="igniel" /> <input name="loc" type="hidden" value="en_US" />
+        <input name="uri" type="hidden" value="ooc" /> <input name="loc" type="hidden" value="en_US" />
         <button type="submit"></button>
       </form>
     </div>
@@ -130,3 +130,5 @@ padding:0px}
     </div>
   </div>
 </div>
+
+Good luck
