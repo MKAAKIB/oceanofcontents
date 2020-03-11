@@ -1,64 +1,72 @@
 <!-- Powered BY: ocean of contents -->  
+Y
+
  <style>  
  @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);  
- .ooc_subs_box_wrapper{  
+ .ooc_subs_box_wrapper {  
   background:url('Your Backgroud Image') repeat scroll 0 0 #FFF;  
-  color:#427FED;  
-  border-radius: 5px;  
-  border: 2px solid #0AC4FC;  
-  font-family: "Roboto";  
-  font-size:14px;  
-  line-height:20px;  
-  padding:1px 20px 10px;  
-  text-align:center;  
-  text-transform:uppercase  
+  color:#427FED !important;  
+  border-radius: 5px !important;  
+  border: 2px solid #0AC4FC !important;  
+  font-family: "Roboto" !important;  
+  font-size:14px !important;  
+  line-height:20px !important;  
+  padding:1px 20px 10px !important;  
+  text-align:center !important;  
+  text-transform:uppercase !important 
  }  
- .sidebar-subscribe-box-form{  
-  clear:both;  
-  display:block;  
-  margin:10px 0  
+ .sidebar-subscribe-box-form {  
+  clear:both !important;  
+  display:block !important;  
+  margin:10px 0 !important 
  }  
- form.sidebar-subscribe-box-form{  
-  clear:both;  
-  display:block;  
-  margin:10px 0 0;  
-  width:auto  
+ form.sidebar-subscribe-box-form {  
+  clear:both !important;  
+  display:block !important;  
+  margin:10px 0 0 !important;  
+  width:auto !important
  }  
- .sidebar-subscribe-box-email-field{  
-  -moz-border-radius:4px;  
-  -webkit-border-radius:4px;  
-  background:#fff;  
-  border:1px solid #ccc;  
-  border-radius:4px;  
-  color:#444;margin:0 0 15px;  
-  padding:10px 30px;  
-  width:75%  
+ .sidebar-subscribe-box-email-field {  
+  -moz-border-radius:4px !important;  
+  -webkit-border-radius:4px !important;  
+  background:#fff !important;  
+  border:1px solid #ccc !important;  
+  border-radius:4px !important;  
+  color:#444;margin:0 0 15px !important;  
+  padding:10px 30px !important; 
+  width:100% !important
  }  
- .sidebar-subscribe-button{  
-  -webkit-border-radius: 5;  
-  -moz-border-radius: 5;  
-  border-radius: 5px;  
-  font-family: "Roboto";  
-  color: #ffffff;  
-  font-size: 29px;  
-  background: #3cb0fd;  
-  padding: 10px 30px 10px 30px;  
-  width:100%;  
-  border: solid #ffffff 0px;  
-  text-decoration: none;  
+ .sidebar-subscribe-button {  
+  -webkit-border-radius: 5 !important;  
+  -moz-border-radius: 5 !important;  
+  border-radius: 5px !important;  
+  font-family: "Roboto" !important;  
+  color: #ffffff !important;  
+  font-size: 20px !important;  
+  background: #3cb0fd !important;  
+  padding: 10px 30px 10px 30px !important;  
+  width:100% !important;  
+  border: solid #ffffff 0px !important;  
+  text-decoration: none !important;
+  margin: auto;
+    max-width: max-content;
  }  
- .sidebar-subscribe-button:hover,.sidebar-subscribe-box-email-button:focus{  
-  background: #3498db;  
-  text-decoration: none;  
+ .sidebar-subscribe-button:hover,.sidebar-subscribe-box-email-button:focus {  
+  background: #3498db !important;  
+  text-decoration: none !important;
+  box-shadow: 0 0 13px #0ac4fc;
  }  
  </style>  
  <div class="ooc_subs_box_wrapper">  
-   <p>Subscribe for free</p>  
+   <div style="
+    margin-top: 10px;
+    font-family: roboto;
+">Subscribe For Free</div>  
    <div class="sidebar-subscribe-box-form">  
     <form action="http://feedburner.google.com/fb/a/mailverify?uri=Cybup" class="sidebar-subscribe-box-form" method="post" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=Cybup', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" target="popupwindow">  
      <input name="uri" type="hidden" value="Cybup" />  
-     <input name="loc" type="hidden" value="en_US" /><input class="sidebar-subscribe-box-email-field" name="email" autocomplete="off" placeholder="Enter your email address"/>  
+     <input name="loc" type="hidden" value="en_US" /><input class="sidebar-subscribe-box-email-field" name="email" autocomplete="off" placeholder="Enter Your Email Address"/>  
      <input class="sidebar-subscribe-button" title="" type="submit" value="Subscribe Now !" />  
     </form>  
    </div>  
-  </div>  
+  </div>
